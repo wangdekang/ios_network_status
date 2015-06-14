@@ -1,0 +1,461 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		051EBDC31B2D807B00FF6EFE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 051EBDC21B2D807B00FF6EFE /* main.m */; };
+		051EBDC61B2D807B00FF6EFE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 051EBDC51B2D807B00FF6EFE /* AppDelegate.m */; };
+		051EBDC91B2D807B00FF6EFE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 051EBDC81B2D807B00FF6EFE /* ViewController.m */; };
+		051EBDCC1B2D807B00FF6EFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 051EBDCA1B2D807B00FF6EFE /* Main.storyboard */; };
+		051EBDCE1B2D807B00FF6EFE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 051EBDCD1B2D807B00FF6EFE /* Images.xcassets */; };
+		051EBDD11B2D807B00FF6EFE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 051EBDCF1B2D807B00FF6EFE /* LaunchScreen.xib */; };
+		051EBDDD1B2D807B00FF6EFE /* iOS_______Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 051EBDDC1B2D807B00FF6EFE /* iOS_______Tests.m */; };
+		051EBDEE1B2D810200FF6EFE /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 051EBDED1B2D810200FF6EFE /* Reachability.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		051EBDF11B2D811E00FF6EFE /* NetWorkTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 051EBDF01B2D811E00FF6EFE /* NetWorkTools.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		051EBDD71B2D807B00FF6EFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 051EBDB51B2D807B00FF6EFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 051EBDBC1B2D807B00FF6EFE;
+			remoteInfo = "iOS-监测网络变化";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		051EBDBD1B2D807B00FF6EFE /* iOS-监测网络变化.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS-监测网络变化.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		051EBDC11B2D807B00FF6EFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		051EBDC21B2D807B00FF6EFE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		051EBDC41B2D807B00FF6EFE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		051EBDC51B2D807B00FF6EFE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		051EBDC71B2D807B00FF6EFE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		051EBDC81B2D807B00FF6EFE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		051EBDCB1B2D807B00FF6EFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		051EBDCD1B2D807B00FF6EFE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		051EBDD01B2D807B00FF6EFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		051EBDD61B2D807B00FF6EFE /* iOS-监测网络变化Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "iOS-监测网络变化Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		051EBDDB1B2D807B00FF6EFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		051EBDDC1B2D807B00FF6EFE /* iOS_______Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "iOS_______Tests.m"; sourceTree = "<group>"; };
+		051EBDEC1B2D810200FF6EFE /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		051EBDED1B2D810200FF6EFE /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		051EBDEF1B2D811E00FF6EFE /* NetWorkTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetWorkTools.h; sourceTree = "<group>"; };
+		051EBDF01B2D811E00FF6EFE /* NetWorkTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetWorkTools.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		051EBDBA1B2D807B00FF6EFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		051EBDD31B2D807B00FF6EFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		051EBDB41B2D807A00FF6EFE = {
+			isa = PBXGroup;
+			children = (
+				051EBDBF1B2D807B00FF6EFE /* iOS-监测网络变化 */,
+				051EBDD91B2D807B00FF6EFE /* iOS-监测网络变化Tests */,
+				051EBDBE1B2D807B00FF6EFE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		051EBDBE1B2D807B00FF6EFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				051EBDBD1B2D807B00FF6EFE /* iOS-监测网络变化.app */,
+				051EBDD61B2D807B00FF6EFE /* iOS-监测网络变化Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		051EBDBF1B2D807B00FF6EFE /* iOS-监测网络变化 */ = {
+			isa = PBXGroup;
+			children = (
+				051EBDEA1B2D810200FF6EFE /* NetWorkTool */,
+				051EBDC41B2D807B00FF6EFE /* AppDelegate.h */,
+				051EBDC51B2D807B00FF6EFE /* AppDelegate.m */,
+				051EBDC71B2D807B00FF6EFE /* ViewController.h */,
+				051EBDC81B2D807B00FF6EFE /* ViewController.m */,
+				051EBDCA1B2D807B00FF6EFE /* Main.storyboard */,
+				051EBDCD1B2D807B00FF6EFE /* Images.xcassets */,
+				051EBDCF1B2D807B00FF6EFE /* LaunchScreen.xib */,
+				051EBDC01B2D807B00FF6EFE /* Supporting Files */,
+			);
+			path = "iOS-监测网络变化";
+			sourceTree = "<group>";
+		};
+		051EBDC01B2D807B00FF6EFE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				051EBDC11B2D807B00FF6EFE /* Info.plist */,
+				051EBDC21B2D807B00FF6EFE /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		051EBDD91B2D807B00FF6EFE /* iOS-监测网络变化Tests */ = {
+			isa = PBXGroup;
+			children = (
+				051EBDDC1B2D807B00FF6EFE /* iOS_______Tests.m */,
+				051EBDDA1B2D807B00FF6EFE /* Supporting Files */,
+			);
+			path = "iOS-监测网络变化Tests";
+			sourceTree = "<group>";
+		};
+		051EBDDA1B2D807B00FF6EFE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				051EBDDB1B2D807B00FF6EFE /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		051EBDEA1B2D810200FF6EFE /* NetWorkTool */ = {
+			isa = PBXGroup;
+			children = (
+				051EBDEB1B2D810200FF6EFE /* Reachability */,
+				051EBDEF1B2D811E00FF6EFE /* NetWorkTools.h */,
+				051EBDF01B2D811E00FF6EFE /* NetWorkTools.m */,
+			);
+			path = NetWorkTool;
+			sourceTree = "<group>";
+		};
+		051EBDEB1B2D810200FF6EFE /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				051EBDEC1B2D810200FF6EFE /* Reachability.h */,
+				051EBDED1B2D810200FF6EFE /* Reachability.m */,
+			);
+			path = Reachability;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		051EBDBC1B2D807B00FF6EFE /* iOS-监测网络变化 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 051EBDE01B2D807B00FF6EFE /* Build configuration list for PBXNativeTarget "iOS-监测网络变化" */;
+			buildPhases = (
+				051EBDB91B2D807B00FF6EFE /* Sources */,
+				051EBDBA1B2D807B00FF6EFE /* Frameworks */,
+				051EBDBB1B2D807B00FF6EFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "iOS-监测网络变化";
+			productName = "iOS-监测网络变化";
+			productReference = 051EBDBD1B2D807B00FF6EFE /* iOS-监测网络变化.app */;
+			productType = "com.apple.product-type.application";
+		};
+		051EBDD51B2D807B00FF6EFE /* iOS-监测网络变化Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 051EBDE31B2D807B00FF6EFE /* Build configuration list for PBXNativeTarget "iOS-监测网络变化Tests" */;
+			buildPhases = (
+				051EBDD21B2D807B00FF6EFE /* Sources */,
+				051EBDD31B2D807B00FF6EFE /* Frameworks */,
+				051EBDD41B2D807B00FF6EFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				051EBDD81B2D807B00FF6EFE /* PBXTargetDependency */,
+			);
+			name = "iOS-监测网络变化Tests";
+			productName = "iOS-监测网络变化Tests";
+			productReference = 051EBDD61B2D807B00FF6EFE /* iOS-监测网络变化Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		051EBDB51B2D807B00FF6EFE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "王德康";
+				TargetAttributes = {
+					051EBDBC1B2D807B00FF6EFE = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					051EBDD51B2D807B00FF6EFE = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 051EBDBC1B2D807B00FF6EFE;
+					};
+				};
+			};
+			buildConfigurationList = 051EBDB81B2D807B00FF6EFE /* Build configuration list for PBXProject "iOS-监测网络变化" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 051EBDB41B2D807A00FF6EFE;
+			productRefGroup = 051EBDBE1B2D807B00FF6EFE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				051EBDBC1B2D807B00FF6EFE /* iOS-监测网络变化 */,
+				051EBDD51B2D807B00FF6EFE /* iOS-监测网络变化Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		051EBDBB1B2D807B00FF6EFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				051EBDCC1B2D807B00FF6EFE /* Main.storyboard in Resources */,
+				051EBDD11B2D807B00FF6EFE /* LaunchScreen.xib in Resources */,
+				051EBDCE1B2D807B00FF6EFE /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		051EBDD41B2D807B00FF6EFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		051EBDB91B2D807B00FF6EFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				051EBDF11B2D811E00FF6EFE /* NetWorkTools.m in Sources */,
+				051EBDC91B2D807B00FF6EFE /* ViewController.m in Sources */,
+				051EBDC61B2D807B00FF6EFE /* AppDelegate.m in Sources */,
+				051EBDC31B2D807B00FF6EFE /* main.m in Sources */,
+				051EBDEE1B2D810200FF6EFE /* Reachability.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		051EBDD21B2D807B00FF6EFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				051EBDDD1B2D807B00FF6EFE /* iOS_______Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		051EBDD81B2D807B00FF6EFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 051EBDBC1B2D807B00FF6EFE /* iOS-监测网络变化 */;
+			targetProxy = 051EBDD71B2D807B00FF6EFE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		051EBDCA1B2D807B00FF6EFE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				051EBDCB1B2D807B00FF6EFE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		051EBDCF1B2D807B00FF6EFE /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				051EBDD01B2D807B00FF6EFE /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		051EBDDE1B2D807B00FF6EFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		051EBDDF1B2D807B00FF6EFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		051EBDE11B2D807B00FF6EFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "iOS-监测网络变化/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		051EBDE21B2D807B00FF6EFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "iOS-监测网络变化/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		051EBDE41B2D807B00FF6EFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "iOS-监测网络变化Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS-监测网络变化.app/iOS-监测网络变化";
+			};
+			name = Debug;
+		};
+		051EBDE51B2D807B00FF6EFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "iOS-监测网络变化Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOS-监测网络变化.app/iOS-监测网络变化";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		051EBDB81B2D807B00FF6EFE /* Build configuration list for PBXProject "iOS-监测网络变化" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				051EBDDE1B2D807B00FF6EFE /* Debug */,
+				051EBDDF1B2D807B00FF6EFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		051EBDE01B2D807B00FF6EFE /* Build configuration list for PBXNativeTarget "iOS-监测网络变化" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				051EBDE11B2D807B00FF6EFE /* Debug */,
+				051EBDE21B2D807B00FF6EFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		051EBDE31B2D807B00FF6EFE /* Build configuration list for PBXNativeTarget "iOS-监测网络变化Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				051EBDE41B2D807B00FF6EFE /* Debug */,
+				051EBDE51B2D807B00FF6EFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 051EBDB51B2D807B00FF6EFE /* Project object */;
+}
